@@ -1,0 +1,10 @@
+.btn-purple {
+    background-color: rgb(145,22,144); /* Este es un tono morado. Puedes ajustarlo a tu preferencia. */
+    color: #ffffff; /* Color del texto en blanco. */
+    border: none;
+}
+
+.btn-purple:hover, .btn-purple:focus {
+    background-color: rgb(145,22,144); /* Un tono más oscuro de morado para el efecto hover/focus. */
+    color: #ffffff;
+}

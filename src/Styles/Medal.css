@@ -1,0 +1,14 @@
+/* Medal.css */
+.medal {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    margin: 5px;
+  }
+  
+  .medal.unlocked {
+    /* Estilos adicionales para la medalla desbloqueada si es necesario */
+  }
+  
+  

@@ -1,0 +1,23 @@
+.textLogin{
+font-size: 5vh;
+@media (max-width:650px){
+    font-size: 3vh;
+}
+font-weight: bold;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.form-label {
+    font-weight: bold;
+}
+.botonlogin {
+    background-color: #911690;
+    color: white; 
+
+
+}
+.botonlogin:hover {
+    background-color: rgba(196,0,255,1);
+    color: white;
+  }

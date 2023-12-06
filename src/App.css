@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  background-color: #f8f0ff;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+}
+.navbar{
+  background: rgb(145,22,144);
+  background: linear-gradient(90deg, rgba(145,22,144,1) 54%, rgba(196,0,255,1) 100%, rgba(79,0,78,0.821187850140056) 100%);
+  height: 60px;
+}
+#texto_titulo{
+  position: relative;
+}
+#offcanvasDarkNavbar{
+  width: 250px;
+  background: rgb(145,22,144);
+  background: linear-gradient(90deg, rgba(145,22,144,1) 54%, rgba(196,0,255,1) 100%, rgba(79,0,78,0.821187850140056) 100%);
+}
+
+#hamburguesa{
+  margin-top: -10px;
+  border-color: white;
+}
+
+#logoNav{
+  width: 50px;
+  height: 60px;
+  margin-right: 20px;
+  margin-top: -5px;
+}
+
+
+.texto-carousel {
+  background-color: black;
+  color: black;
+}
+.colorPortada{
+  color:hsl(249, 79%, 69%)
+}
+.colorPortada2{
+  color:rgb(207, 7, 110)
+}
+
+.carousel-item {
+  background-size: cover;
+}
+
+#logoNav{
+
+  width: 40px;
+  height: 60px;
+  margin-right: 15px;
+}
+
+#carrusel{
+  margin: 55px;
+}
+
+
+.carousel-inner {
+  border-radius: 50px;
+}
+
+
+.cardAbout {
+  width: 22rem;
+  height: 100%;
+}
+
+.card-stem {
+  height: 100%;
+}
+
+.card-texto {
+  background-color: #9A329A;
+}
+
+.btnStem {
+  background-color: #911690;
+  color: white;
+}
+
+.btnStem:hover {
+  background-color: rgba(196,0,255,1) /* Cambia esto al color que desees para el hover */
+}
+
+
+.footer {
+  background-color: #740A74;
+  color: white;
+}
+
+.png-footer {
+  max-width: 20%;
+  filter: invert(100%) grayscale(100%) brightness(200%);
+}
+
+
+
+.card-about {
+  padding: 20px;
+  width: 330px;
+  min-height: 370px;
+  border-radius: 20px;
+  background: #ededed;
+  box-shadow: 5px 5px 6px #dadada,
+               -5px -5px 6px #f6f6f6;
+  transition: 0.4s;
+}
+
+.card-about:hover {
+  translate: 0 -10px;
+}
+
+.card-title-about {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2e54a7;
+  margin: 15px 0 0 10px;
+}
+
+.card-image-about {
+  min-height: 170px;
+  background-color: #c9c9c9;
+  border-radius: 15px;
+  box-shadow: inset 8px 8px 10px #c3c3c3,
+            inset -8px -8px 10px #cfcfcf;
+}
+
+.card-body-about {
+  margin: 13px 0 0 10px;
+  color: rgb(31, 31, 31);
+  font-size: 15px;
+}
+
+.footer-about {
+  float: right;
+  margin: 28px 0 0 18px;
+  font-size: 13px;
+  color: #636363;
+}
+
+.by-name-about {
+  font-weight: 700;
+}
+/* CSS adicional para centrar los botones en la tarjeta */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Esto asegurará que el botón se pegue al fondo de la tarjeta */
+}
+
+.btnStem {
+  margin-top: auto; /* Esto empujará el botón hacia abajo si hay espacio disponible */
+}

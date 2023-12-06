@@ -1,0 +1,51 @@
+.btn-back{
+    background-color: #C979FF;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    &:hover{
+        background-color: #9E0FFF;
+        color: #fff;
+    }
+}
+
+@media (max-width: 768px){
+    .btn-back{
+        width: 30%;
+        margin-right: 5%;
+    }
+}
+
+.btn-back-mujeres {
+    background-color: #C979FF;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    margin: 1% 0 0 5%;
+    &:hover{
+        background-color: #9E0FFF;
+        color: #fff;
+    }
+}
+
+@media (max-width: 768px){
+    .btn-back-mujeres{
+        margin: 1% 0 0 34%;
+    }
+
+}
+.btnbackstem {
+    background-color: #C979FF;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    &:hover{
+        background-color: #9E0FFF;
+        color: #fff;
+    }
+}
+
+.parrafo {
+    font-size: 65%;
+    margin: 2%;
+}

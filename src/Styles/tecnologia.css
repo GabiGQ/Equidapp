@@ -1,0 +1,12 @@
+
+.imgZoom {
+    transition: transform 0.2s ease;
+}
+
+.imgZoom:hover {
+    transform: scale(1.1);
+}
+
+.courses-btn {
+    height: 70%;
+}

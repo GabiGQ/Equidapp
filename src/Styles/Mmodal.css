@@ -1,0 +1,88 @@
+/* Modal.css */
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    z-index: 1001;
+  }
+  
+  .modal-close-btn {
+    margin-top: 20px;
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Ajustes en pCursos.css o el archivo CSS relevante */
+
+  .medals-container {
+    display: flex;
+    flex-direction: row; /* Organiza los elementos en fila */
+    justify-content: center; /* Centra los elementos en el eje principal */
+    align-items: center; /* Centra los elementos en el eje transversal */
+  }
+  
+  .medals-container img {
+    width: 30px; /* Tamaño de las medallas */
+    height: 30px;
+    margin: 0 5px; /* Espacio horizontal entre medallas */
+  }
+
+  /* Estilos base para las medallas */
+.medals-container img {
+  width: 30px; /* Tamaño base de las medallas */
+  height: 30px;
+  margin: 0 5px; /* Espacio horizontal entre medallas */
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 767px) {
+  .medals-container img {
+    width: 20px; /* Tamaño más pequeño de las medallas para pantallas pequeñas */
+    height: 20px;
+    margin: 0 3px; /* Menor espaciado entre medallas */
+  }
+}
+
+/* Media query para pantallas medianas */
+@media (min-width: 768px) and (max-width: 991px) {
+  .medals-container img {
+    width: 25px; /* Tamaño intermedio de las medallas para pantallas medianas */
+    height: 25px;
+    margin: 0 4px; /* Espaciado intermedio entre medallas */
+  }
+}
+
+/* Puedes agregar más media queries para pantallas más grandes si es necesario */
+
+/* Asegúrate de que el contenedor de medallas también se ajuste correctamente */
+.medals-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Puedes aplicar media queries al contenedor si es necesario para ajustar su tamaño o posición */
+@media (max-width: 767px) {
+  .medals-container {
+    /* Ajustes para el contenedor en pantallas pequeñas */
+  }
+}
